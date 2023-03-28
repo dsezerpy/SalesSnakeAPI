@@ -9,3 +9,7 @@ mongo=MongoClient()
 @app.post("/authenticate")
 async def authenticate(login: models.Login):
     pass
+
+@app.post("/register")
+async def register():
+    pass
