@@ -40,4 +40,4 @@ jobs:
         with:
           push: true
           platforms: linux/arm64,linux/amd64
-          tags: ${{ secrets.DOCKER_USERNAME }}/apimeme:latest,${{ secrets.DOCKER_USERNAME }}/apimeme:${{ env.SSAPI_VERSION }}
+          tags: ${{ secrets.DOCKER_USERNAME }}/salessnakeapi:latest,${{ secrets.DOCKER_USERNAME }}/salessnakeapi:${{ env.SSAPI_VERSION }}
