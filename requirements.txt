@@ -1,3 +1,4 @@
 Fastapi
 pymongo
 python-jose
+python-multipart
